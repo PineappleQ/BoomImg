@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style>
+            #imgContainer{
+                width: 880px;
+                margin: 200px auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="imgContainer">
+            <img src="Images/picture_one.jpg" height="550" width="880"/>
+        </div>
+        <script src="js/jquery-1.12.2.min.js"></script>
+        <script src="js/boom.js"></script>
+        <script>
+            $(function() {
+                $("#imgContainer img").boomPic();
+            })
+        </script>
+    </body>
+</html>
